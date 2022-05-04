@@ -1,0 +1,21 @@
+Commit to the Git - 5/5/22
+-- Courtesy of Savannah
+
+Goal: Determine what each group member will contribute to the first project segment. 
+
+Tasks: 
+We looked over the first segment rubric. 
+Four commits per team member (commit often) 
+We discussed looking at multiple options for the machine learning component so that we have more than one model to choose from. 
+Chris will be uploading a dataset for heart disease
+Rowena will be uploading a dataset for life expectancy 
+Savannah sent a walkability and land value dataset to the slack chat 
+Rowena sent a food access database to the slack chat 
+
+Decisions: 
+We determined that we’d rather do visualization via Tableau than an HTML dashboard
+For segment 1: 
+Presentation: Kyle/Charles
+Github: Kyle 
+Machine Learning: Rowena and Chris 
+Database: Savannah 
