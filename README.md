@@ -1,7 +1,7 @@
 # Final Project
 ## Selected Topic
 Our topic is:
-How are health outcomes affected by city's walkability and the availability of public transit
+How are health outcomes affected by city's walkability and the availability of public transit?
 ## Reason We Picked the Topic
 ## Questions We Hope to Answer with the Data
   1. Housing density and its effect on overall health
