@@ -3,6 +3,7 @@
 Our topic is:
 How are health outcomes affected by city's walkability and the availability of public transit?
 ## Reason We Picked the Topic
+We picked this topic because we have all been in a situation where we have not had a car and realized how difficult it is to get everyday necessities. We wanted to know if people are healthier who live in a more walkable area. A good example of this is if the grocery store is two miles and fast food is only a mile would that make a difference, same with health care.
 ## Questions We Hope to Answer with the Data
   1. Housing density and its effect on overall health
       - Public transit
