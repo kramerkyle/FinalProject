@@ -8,4 +8,4 @@ A blueprint for the dashboard is created and includes all of the following:
 - Description of the tool(s) that will be used to create the final dashboard
 - Description of interactive element(s)
 
-Google Slides Draft
+Google Slides Draft - this was handled by Chris and is present in his branch.
