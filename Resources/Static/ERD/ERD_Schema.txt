@@ -1,0 +1,20 @@
+# Final Project Schema
+
+US_Life_Expectancy
+-
+State varchar FK >- Food_Access_Research_Data.State
+County varchar FK >- Food_Access_Research_Data.County
+Census_Tract_Number int pk FK >- Food_Access_Research_Data.Census_Tract
+Life_Expectancy int
+Life_Expectancy_Range int
+Life_Expectancy_Standard_Error int
+
+Food_Access_Research_Data
+-
+Census_Tract int fk
+State varchar
+County varchar
+LILATracts_1And10 int
+LILATracts_halfAnd10 int
+LILATracts_1And20 int
+LILATracts_Vehicle int
