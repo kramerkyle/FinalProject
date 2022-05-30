@@ -43,6 +43,11 @@ Random Forest Regressor does not have a balanced accuracy score, but an accuracy
   1. https://appdividend.com/2020/04/27/python-pandas-how-to-convert-sql-to-dataframe/
   2. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews
   3. https://chronicdata.cdc.gov/browse?category=500+Cities+%26+Places
+  4. https://data.cdc.gov/NCHS/U-S-Life-Expectancy-at-Birth-by-State-and-Census-T/5h56-n989
+  5. https://www.ers.usda.gov/data-products/food-access-research-atlas/
+  6. https://chronicdata.cdc.gov/500-Cities-Places/500-Cities-Census-Tract-level-Data-GIS-Friendly-Fo/k86t-wghb
+  7. https://edg.epa.gov/metadata/catalog/search/resource/details.page?uuid=%7B33514B4C-54F2-464A-BCC7-35F441B7E21A%7D
+  8. https://www.kaggle.com/datasets/danofer/zipcodes-county-fips-crosswalk
 
 
 ## Commit to the Git
