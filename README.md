@@ -19,14 +19,14 @@ We picked this topic because we have all been in a situation where we have not h
       - size of city
       - ethnicity
   4. Which variables affected the model the most
-### Description of the data exploration phase of the project 
+## Description of the data exploration phase of the project 
 #### Finding a Link
 In order to perform analysis on infrastructure and health data we first needed to find datasets that would be able to communicate well. This required us to identify a common thread, or column, that each dataset contained so that we could relate them to each other. Since we were analyzing how a location's infrastructure affected the health of the people living there, we could use that location's identifying information to link our health datasets to our infrastructure datasets. The Census Tract Number ended up being the perfect thread to tie each dataset together. Most government datasets would contain it, and it was a unique code to each Census Tract, allowing us to correctly link together a location's infrastructure and health data with little confusion.
 #### Cleaning the Data
 We were able to find a dataset containing health data for 500 cities in America, gathered by the CDC. Each city was split up by Census Tract Number, which allowed us to easily extract the rates of obesity of each individual Census Tract into its own dataframe. We found a similar dataset for life expectancy.
 
 For infrastructure, we were able to find a dataset containing information on food accessibility in America from the USDA. This was also split up by Census Tract Number, and we narrowed the dataset down to the most prevalent information, which was food accessibility scores based on distance to travel. We then found a dataset containing a wealth of information on walkability, transit frequency, pedestrian network density, and other information pertinent to how people move about a city. This dataset, unfortunately, only contained the truncated Census Tract Number and not the full, unique ID that could communicate with the rest of the datasets. We fixed this by finding a dataset containing the State and County FIPS codes by county, which we merged with the previous dataset on the county column. We then concatenated the FIPS with the truncated Census Tract Number, which produced the full, unique ID for each census tract in the dataset.
-#### Modeling the Data
+### Modeling the Data
 #### Data Preprocessing
 To start off the model, we first loaded the data from SQL into dataframes within the notebook. Since the data had already been cleaned, we could merge the two dataframes, one containing the infrastructure data and the other containing the health data, on the Census Tract Number into one dataframe that would be easier to work with.
 #### Feature Engineering
