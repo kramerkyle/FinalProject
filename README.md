@@ -1,4 +1,13 @@
 # Final Project
+
+## Link to Tableau Dashboards
+* Exploratory Visualizations: 
+  *  https://public.tableau.com/app/profile/kyle.kramer2933/viz/CountyViz/MedianIncomebyCounty?publish=yes
+* Visualizations Based on the Model
+  *  https://public.tableau.com/app/profile/christopher.j.swan/viz/Obesity_16536641738470/Obesity
+## Link to Final Presentation Slides
+* https://docs.google.com/presentation/d/1TxfKXZuDRwYgDGhfXwnc6uuwzr87GkwT84908qumvGI/edit?usp=sharing
+
 ## Presentation Paragraph
 ### Selected Topic
 Our topic is:
