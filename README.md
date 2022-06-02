@@ -46,8 +46,10 @@ We used the sklearn train_test_split to split the features and targets into trai
 We chose to use the Random Forest Regressor model for this project. This was perfect for our needs since it could predict continuous values without having to use PCA to cut down on the number of features. This would allow us to use much more than three features in our model as well as letting us calculate the feature importance later. We needed the importance of the features so that we could see which aspects of infrastructure affected our targets the most so that we could build our presentation around them. Random Forest as a whole reduces overfitting and doesn't require feature normalization as well.
 #### Model Training
 The training required for this model was minimal. After a preliminary testing of the model, we dropped the % Low Income from the features since it heavily skewed the feature importance towards itself, and didn't fit the thesis of "Infrastructure vs. Health". Further training is not required due to the high accuracy of the model.
-#### Accuracy
+#### Accuracy and Confusion Matrix
 Random Forest Regressor does not have a balanced accuracy score, but an accuracy score can be determined by first finding the mean absolute percentage error (MAPE) by subtracting the actual value from the predicted value, dividing by the actual value, and multiplying by 100. We then find the accuracy by subtracting the mean of the MAPE values from 100. The obesity model had an accuracy score of 88.33%, while the life expectancy model had an accuracy score of 96.67%.
+
+Random Forest Regressor also does not have a confusion matrix since we are dealing with continuous values and not binary values. 
 ### Sites Used
   1. https://appdividend.com/2020/04/27/python-pandas-how-to-convert-sql-to-dataframe/
   2. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/approving-a-pull-request-with-required-reviews
